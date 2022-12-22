@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TraderSpot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <style>
+    
+    .carousel-inner img {
+      width: 100%;
+      height: 80%;
+    }
+    .navbar-custom{
+      background-color: black;
+    }
+    .navbar-custom .navbar-brand , .navbar-custom .nav-link{
+color: white;
+    }
+    </style>
+</head>
+<body>
+  <div class="container-lg">
+    <h2></h2>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container-fluid">
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Website.htm">
+                <img src="lol.png"  width="120" height="50" class="d-inline-block align-text-left">
+              </a>
+            </div>
+        </nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Website.htm">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.htm">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.htm">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.HTM" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="1200">
+          <img src="1.png" width="900" height="100" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <button type="button" class="btn btn-light">Know more</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1200">
+          <img src="2.png" width="900" height="100" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <button type="button" class="btn btn-light">Know more</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="3.png" width="900" height="100" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <button type="button" class="btn btn-light">Know more</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+  <div class="container-fluid vh-100" style="margin-top:150px">
+    <div class="" style="margin-top:100px">
+        <div class="rounded d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 shadow-xl p-5 bg-dark">
+                <div class="text-center">
+                    <h3 class="text-info">Create Account</h3>
+                </div>
+                <div class="p-4">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-dark"><i
+                                class="bi bi-person-plus-fill text-white"></i></span>
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-dark"><i
+                                class="bi bi-envelope text-white"></i></span>
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-dark">
+                            <i class="bi bi-lock-fill text-white"></i></span>
+                        <input type="password" class="form-control" placeholder="password">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-dark">
+                            <i class="bi bi-unlock-fill text-white"></i>
+                        </span>
+                        <input type="password" class="form-control" placeholder="Confirm Password">
+                    </div>
+                    <div class="d-grid col-12 mx-auto">
+                        <button class="btn btn-info" type="button"><span></span> Sign up</button>
+                    </div>
+                    <p class="text-center mt-3">Already have an account?
+                        <span class="text-info">Sign in</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 d-sm-none d-md-block">
+                <img src="form.gif"
+                    class="d-block w-150 img-fluid" alt="image">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <h4>Become the trader you want to be with our advanced trading platform and excellent personal traning program</h4>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+     <cite title="Source Title">TraderSpot</cite>
+  </figcaption>
+</figure>
+
+<table class="table table-hover" border="10px">
+  <thead>
+    <tr>
+      <th scope="col">Sr. No</th>
+      <th scope="col">Segment</th>
+      <th scope="col">Amount required</th>
+      <th scope="col">Avilable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Currencies</td>
+      <td>50000 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Commodities</td>
+      <td>30000 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Future & Option</td>
+      <td>30000 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Stocks</td>
+      <td>1000 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Mutual Funds</td>
+      <td>500 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Gold Bonds</td>
+      <td>15000 INR</td>
+      <td>Avilable</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Fractional Stocks </td>
+      <td>-</td>
+      <td>Cooming Soon</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<footer class="text-center text-lg-start text-light" style="background-color:black">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <div>
+      <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+        <b class="fab fa-facebook-f">Facebook</b>
+      </a>
+      <a href="https://twitter.com/i/flow/login" target="_blank" class="me-4 text-reset">
+        <b class="fab fa-twitter">Twitter</b>
+      </a>
+      <a href="https://www.instagram.com/accounts/login/" target="_blank" class="me-4 text-reset">
+        <b class="fab fa-instagram">Instagram</b>
+      </a>
+      <a href="https://github.com/login" target="_blank" class="me-4 text-reset">
+        <b class="fab fa-github">Github</b>
+      </a>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      
+      <div class="row mt-3">
+        
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>
+          </h6>
+          <img src="lol.png" class="rounded float-start" alt="logo">
+        </div>
+    
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+          
+          </h6>
+          <p>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="Website.htm" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="about.htm" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="pricing.htm" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="contactus.htm" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i>Andheri,Mumbai INDIA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@TraderSpot.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 9988776655</p>
+          <p><i class="fas fa-print me-3"></i> +91 987654321</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.999);">
+    © 2022 All Rights Reserved.
+    <a class="text-reset fw-bold" href="Website.htm">TraderSpot</a>
+  </div>
+</footer>
+
+
+</body>
+</html>
